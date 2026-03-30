@@ -115,7 +115,7 @@ export default function FeaturedEvents() {
              </h3>
           </div>
           <p className="text-gray-400 font-mono text-sm max-w-md">
-             // Explore the pinnacle of youth talent entering the primary stage matrix.
+             {`// Explore the pinnacle of youth talent entering the primary stage matrix.`}
           </p>
         </div>
 

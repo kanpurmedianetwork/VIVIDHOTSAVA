@@ -28,7 +28,7 @@ export default function EventDomains() {
             Festival <span className="text-gray-600">Categories</span>
           </h3>
           <p className="text-gray-400 font-mono text-sm">
-            // Access the eight distinct universes of creativity and talent at Vividhotsava.
+            {`// Access the eight distinct universes of creativity and talent at Vividhotsava.`}
           </p>
         </div>
 

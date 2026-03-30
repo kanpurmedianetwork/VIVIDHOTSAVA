@@ -84,7 +84,7 @@ export default function About() {
              <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-48 h-48 bg-tech-cyan/5 rounded-full blur-[50px] opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none" />
 
              <h4 className="font-mono text-sm text-gray-500 border-b border-tech-border pb-4 mb-6 uppercase tracking-widest">
-               // Metrics
+               {`// Metrics`}
              </h4>
 
              <div className="grid grid-cols-2 gap-y-8 gap-x-4">
