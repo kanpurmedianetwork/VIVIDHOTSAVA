@@ -8,6 +8,11 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['var(--font-inter)'],
+        space: ['var(--font-space)'],
+        mono: ['var(--font-mono)'],
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
@@ -24,6 +29,14 @@ const config: Config = {
           gold: {
             400: "#ffd700", // Gold accents
           }
+        },
+        tech: {
+          bg: "#020202", // Pitch black base
+          panel: "#0a0a0c", // Dark bento panel
+          border: "#1f1f2e", // Sleek border
+          cyan: "#00f0ff", // Neon cyan
+          magenta: "#ff0055", // Neon magenta
+          lime: "#39ff14", // Cyber lime
         }
       },
       backgroundImage: {
